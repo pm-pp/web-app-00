@@ -28,20 +28,15 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    
-    - name: Install pnpm
-      uses: pnpm/action-setup@v2.1.0
-      with:
-        version: 6.0.2
 
     - name: Install dependencies
-      run: pnpm i
+      run: yarn
     
     - name: Static code analysis
-      run: pnpm lint
+      run: yarn lint
 
     - name: Unit tests
-      run: pnpm test:coverage
+      run: yarn test:coverage
 
     - name: Build
-      run: pnpm build
+      run: yarn build
