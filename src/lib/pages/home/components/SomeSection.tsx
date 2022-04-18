@@ -3,7 +3,7 @@ import { Heading, Text } from "@chakra-ui/react";
 const SomeSection = () => {
   return (
     <>
-      <Heading as="h3" size="md">
+      <Heading as="h2" size="md">
         Section 1.10.32 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written
         by Cicero in 45 BC
       </Heading>
