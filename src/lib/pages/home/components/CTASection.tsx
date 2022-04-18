@@ -3,24 +3,21 @@ import { AiFillGithub } from "react-icons/ai";
 
 const CTASection = () => (
   <Box textAlign="center">
-    <Link
-      _hover={undefined}
-      href="https://github.com/sozonome/vite-react-chakra-starter"
-    >
-      <Button leftIcon={<AiFillGithub />}>Open in Github</Button>
-    </Link>
     <Flex marginY={4} justifyContent="center" gridGap={2}>
+      <Link _hover={undefined} href="https://github.com/pm-pp/web-app-00">
+        <Button leftIcon={<AiFillGithub />}>Open in Github</Button>
+      </Link>
       <Link
         aria-label="Deploy to Vercel"
         isExternal
-        href="https://vercel.com/import/git?s=https://github.com/sozonome/vite-react-chakra-starter"
+        href="https://vercel.com/import/git?s=https://github.com/pm-pp/web-app-00"
       >
         <Image src="https://vercel.com/button" alt="Vercel deploy button" />
       </Link>
       <Link
         aria-label="Deploy to Netlify"
         isExternal
-        href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/vite-react-chakra-starter"
+        href="https://app.netlify.com/start/deploy?repository=https://github.com/pm-pp/web-app-00"
       >
         <Image
           src="https://www.netlify.com/img/deploy/button.svg"
