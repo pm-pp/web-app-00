@@ -1,4 +1,4 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 import ThemeToggle from "./ThemeToggle";
@@ -19,7 +19,10 @@ const Header = () => {
         </Heading>
       </Link>
 
-      <Box marginLeft="auto">
+      <Box marginLeft="auto" display="flex" gap={2}>
+        <Link to="/login">
+          <Button>Login</Button>
+        </Link>
         <ThemeToggle />
       </Box>
     </Flex>
