@@ -8,13 +8,6 @@ const CTASection = () => (
         <Button leftIcon={<AiFillGithub />}>Open in Github</Button>
       </Link>
       <Link
-        aria-label="Deploy to Vercel"
-        isExternal
-        href="https://vercel.com/import/git?s=https://github.com/pm-pp/web-app-00"
-      >
-        <Image src="https://vercel.com/button" alt="Vercel deploy button" />
-      </Link>
-      <Link
         aria-label="Deploy to Netlify"
         isExternal
         href="https://app.netlify.com/start/deploy?repository=https://github.com/pm-pp/web-app-00"
