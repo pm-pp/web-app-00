@@ -11,7 +11,6 @@ const Home = () => {
       <SomeText />
       <SomeImage />
       <CTASection />
-      <SomeSection />
     </Grid>
   );
 };
