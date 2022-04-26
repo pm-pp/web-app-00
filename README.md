@@ -40,7 +40,7 @@ yarn dev
 
 ## Roadmap / TODO
 
-- [ ] configure [`eslint`](https://eslint.org)
+- [x] configure [`eslint`](https://eslint.org)
   - lint script and lint:fix script
   - extend configurations
 - [ ] configure [`vite-plugin-ssr`](https://vite-plugin-ssr.com/)
